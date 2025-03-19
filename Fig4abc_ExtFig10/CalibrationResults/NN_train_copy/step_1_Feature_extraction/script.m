@@ -1,6 +1,0 @@
-Feature_extraction4_AMB;
-Feature_extraction4_HB;
-Feature_extraction4_MAL_1;
-Feature_extraction4_MAL_2;
-Feature_extraction4_MAL_3;
-Feature_extraction4_MB;

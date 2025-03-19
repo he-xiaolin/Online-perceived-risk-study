@@ -27,9 +27,9 @@ DataProcess/
 │   │   ├── pchipNew.m
 │   └── SubjectiveRatings_raw.mat
 ```
-- [Fig2a-c_ExtFig3a-c_g-i_m-o](./Fig2a-c_ExtFig3a-c_g-i_m-o): This folder contains functions that generate Fig. 2a-c, Extended Data Fig. 3a-c, g-i and m-o. The structure of this folder is as follows. Detailed documentation of the functions can be found in [Fig2a-c_ExtFig3a-c_g-i_m-o/README.md](./Fig2a-c_ExtFig3a-c_g-i_m-o/README.md).
+- [Fig2](./Fig2): This folder contains functions that generate Fig. 2a-c, Extended Data Fig. 3a-c, g-i and m-o. The structure of this folder is as follows. Detailed documentation of the functions can be found in [Fig2/README.md](./Fig2/README.md).
 ```
-Fig2a_ExtFig2a-c_g-i_m-o/
+Fig2/
 ├── ClipAnalysis_HB.m
 ├── ClipAnalysis_LC.m
 ├── ClipAnalysis_MB.m
@@ -38,20 +38,11 @@ Fig2a_ExtFig2a-c_g-i_m-o/
 │   └── boxplotGroup,m
 ├── Significance_boxplot.opju
 ```
-- [Fig2d-f_ExtFig3d-f_j-l_p-r](./Fig2d-f_ExtFig3d-f_j-l_p-r): This folder contains functions that generate Fig. 2d-f, Extended Data Fig. 3d-f, j-l and p-r. The structure of this folder is as follows. Detailed documentation of the functions can be found in [Fig2d-f_ExtFig3d-f_j-l_p-r/README.md](./Fig2d-f_ExtFig3d-f_j-l_p-r/README.md).
-```
-Fig2d-f_ExtFig3d-f_j-l_p-r/
-├── HB_JS_divergence.m
-├── LC_JS_divergence.m
-├── MB_JS_divergence.m
-├── SVM_JS_divergence.m
-└── mvgkl.m
-```
-- [Fig3_ExtFig7](./Fig3ExtFig7): This folder contains an Origin Lab file `PerceivedRiskandPrediction.opju`. In project `1MB_PerceivedRisk`, `2HB_PerceivedRisk`, `3LC_PerceivedRisk`, and `4SVM_PerceivedRisk`, all plots and corresponding data can be found. 
-- [Fig4abc_ExtFig10/](./Fig4abc_ExtFig10/): This folder contains necessary code and data to generate Fig. 4a-c and Extended Data Fig. 10. It contains MATLAB scripts for PCAD and DRF model application, calibration and result post-processing across four scenarios (**HB**, **LC**, **MB**, and **SVM**). The results are presented in Origin Lab files `PerceivedRiskandPrediction.opju` and `OverallError.opju`. The structure of this folder is as follows. Detailed documentation of the functions can be found in [Fig4abc_ExtFig10/README.md](./Fig4abc_ExtFig10/README.md).
+- [Fig3_ExtFig5](./Fig3ExtFig5): This folder contains an Origin Lab file `PerceivedRiskandPrediction.opju`. In project `1MB_PerceivedRisk`, `2HB_PerceivedRisk`, `3LC_PerceivedRisk`, and `4SVM_PerceivedRisk`, all plots and corresponding data can be found. 
+- [Fig4_ExtFig9/](./Fig4abc_ExtFig9/): This folder contains necessary code and data to generate Fig. 4a-c and Extended Data Fig. 10. It contains MATLAB scripts for PCAD and DRF model application, calibration and result post-processing across four scenarios (**HB**, **LC**, **MB**, and **SVM**). The results are presented in Origin Lab files `PerceivedRiskandPrediction.opju` and `OverallError.opju`. The structure of this folder is as follows. Detailed documentation of the functions can be found in [Fig4_ExtFig9/README.md](./Fig4_ExtFig9/README.md).
 
 ```
-Fig4abc_ExtFig10/
+Fig4_ExtFig9/
 ├── ModelCalibration_PCAD_DRF_HB.m
 ├── ModelCalibration_PCAD_DRF_LC.m
 ├── ModelCalibration_PCAD_DRF_MB.m
@@ -81,9 +72,16 @@ Fig4abc_ExtFig10/
       └── DNNs/
       └── Prediction_SVM.mat
 ```
+- [Fig5](./Fig5): This folder contains the Python code to generate `Fig5a.pdf` and `Fig5b.pdf`.
+```
+Fig5/
+├── DNNs/
+├── Fig5a.pdf
+└── Fig5b.pdf
+```
 - [Table1/](./Table1/): This folder contains necessary data in SPSS for the statistical analysis. Detailed documentation of the files and data can be found in [Table1/README.md](./Table1/README.md).
 
-- [ExtFig6/](./ExtFig6/): This folder contains a MATLAB script `ExtFig6.m` generating necessary data for Extended Data Fig.6 and an Origin Lab file `ExtFig6.opju` for the plotting.
+- [ExtFig4/](./ExtFig6/): This folder contains a MATLAB script `ExtFig4.m` generating necessary data for Extended Data Fig.4 and an Origin Lab file `ExtFig4.opju` for the plotting.
 
 - [ScenarioDesign/](./ScenarioDesign/): This folder contains a table `parameter_list.xlsx` listing all controlled parameters for the four scenarios.
 
